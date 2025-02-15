@@ -2,6 +2,10 @@ import streamlit as st
 from PIL import Image
 import base64
 
+git remote add origin https://github.com/Th3M4rc3/main.py.git
+git branch -M main
+git push -u origin main
+
 # Configure the page layout
 st.set_page_config(layout="wide")
 
